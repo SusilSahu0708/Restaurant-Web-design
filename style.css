@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 65px;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  /* bottom: 200px; */
+  top: 0;
+}
+
+.left_nav {
+  height: 100%;
+  width: 45%;
+  /* border: 1px solid white; */
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border: 0;
+  outline: 0;
+  padding-left: 10px;
+  font-size: .9rem;
+  border-radius: 3px;
+  color: blue;
+  box-shadow: 0px 0px 6px black;
+
+}
+
+.left_nav .btn {
+  padding: 0.35rem 0.7rem;
+  color: red;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0px 0px 6px black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.right_nav {
+  height: 100%;
+  width: 50%;
+  /* border: 1px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right_nav button {
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 0px 0px 6px black;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  color: red;
+  background-color: rgb(255, 255, 255);
+}
+
+.right_nav button:active {
+  opacity: 0.8;
+  background-color: white;
+}
+
+.container {
+  position: relative;
+  margin-top: 65px;
+
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:first baseline center;
+  /* align-items: center; */
+  margin-bottom: 40px;
+  /* backgrou nd-color: rgb(229, 254, 191); */
+}
+
+.card {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  min-height: 260px;
+  width: 190px;
+  /* display: inline-block; */
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px black;
+}
+
+.imgBox {
+  height: 150px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+img {
+  height: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+h4 {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  /* padding-bottom: 5px; */
+}
+
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(236, 50, 50);
+    position: fixed;
+    bottom: 0px;
+}
+
+.popUp {
+  min-height: 320px;
+  width: 750px;
+  /* border: 3px solid black; */
+  background-color: rgb(115, 30, 30);
+  color: white;
+  padding: 2.5rem .5rem .5rem .5rem;
+  position: absolute;
+  left: 20%;
+  top: 1%;
+  box-shadow: 0px 0px 5px white;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
